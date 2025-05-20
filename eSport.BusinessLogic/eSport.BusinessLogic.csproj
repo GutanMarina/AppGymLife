@@ -54,10 +54,11 @@
     <Compile Include="BlStruct\BusinessLogicBL.cs" />
     <Compile Include="BlStruct\LoginBl.cs" />
     <Compile Include="BlStruct\SessionBL.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="BusinessLogic.cs" />
     <Compile Include="Core\AdminApi.cs" />
     <Compile Include="Core\UserAPI.cs" />
     <Compile Include="DBModel\ApplicationDbContext.cs" />
+    <Compile Include="Interfaces\ISession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
