@@ -41,7 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="BusinessLogic.cs" />
+=======
+    <Compile Include="BlStruct\BusinessLogicBL.cs" />
+    <Compile Include="BlStruct\LoginBl.cs" />
+    <Compile Include="BlStruct\SessionBL.cs" />
+    <Compile Include="BusinessLogic.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Core\AdminApi.cs" />
+    <Compile Include="Core\UserAPI.cs" />
+    <Compile Include="DBModel\ApplicationDbContext.cs" />
+>>>>>>> e23f2a732a20ac22fe078f9928287f725e77f9c0
     <Compile Include="Interfaces\ISession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
