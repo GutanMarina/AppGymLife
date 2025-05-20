@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eSport.Domain
+namespace eSport.BusinessLogic.Interfaces
 {
-    public class BusinessLogic
+    class Class1
     {
     }
 }
