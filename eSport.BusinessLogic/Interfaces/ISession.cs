@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using eSport.Domain.Entities.User;
+using eSport.Domain.Model.User;
 
 namespace eSport.BusinessLogic.Interfaces
-{
-    class Class1
+{//declaram metoda
+    public interface ISession
     {
+        void UserRegister(UDbTable data);
     }
 }
+
+

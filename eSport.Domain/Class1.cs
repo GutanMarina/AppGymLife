@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace eSport.Domain
 {
-    public class BusinessLogic
+    public class Class1
     {
     }
 }
