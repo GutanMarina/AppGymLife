@@ -170,6 +170,8 @@
     <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\BMIController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -190,12 +192,18 @@
     <Content Include="style\fonts\fontawesome-webfont.woff" />
     <Content Include="style\fonts\fontawesome-webfont.woff2" />
     <Content Include="style\fonts\FontAwesome.otf" />
-    <Content Include="Views\Blog\Index.cshtml" />
-    <Content Include="Views\BMI\Index.cshtml" />
-    <Content Include="Views\Shared\Footer.cshtml" />
     <Content Include="Views\Home\AboutUs.cshtml" />
     <Content Include="Views\Home\Classes.cshtml" />
     <Content Include="Views\Home\ClassesTimetable.cshtml" />
+    <Content Include="Views\Shared\Footer.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
+    <Content Include="Views\BMI\Index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Register\Register.cshtml" />
+    <Content Include="Views\Shared\_Register.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\OurTeam.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
