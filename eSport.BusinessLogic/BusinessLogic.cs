@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using eSport.BusinessLogic.BlStruct;
+using eSport.BusinessLogic.Interfaces;
 
 namespace eSport.BusinessLogic
-{
-    public class Class1
+{//implimentarea la metoda
+    public class BusinessLogic
     {
+        public ISession GetAuthBl()
+        {
+            return new LoginBl();
+        }
+
     }
 }
